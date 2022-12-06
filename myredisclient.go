@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"chatgpt/libs/myredisclient/autoredisclient"
+	"github.com/smukil/chatgptredisclient/autoredisclient"
 )
 
 func main() {

@@ -59,7 +59,6 @@ func (c *RedisClient) Set(key, value string) (string, error) {
 	var result string
 	var err error
 
-  fmt.Println("Set shard for key", key, shard)
 	for i, replicaConns := range c.conns {
 		conn := replicaConns[shard]
 		writer := c.writers[i][shard]
