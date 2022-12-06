@@ -10,3 +10,5 @@ To test fault-tolerance, try killing nodes and seeing if it still works.
 To validate scalability, you'll see your keyspace split between shards.
 
 The full transcript is available in `chat-transcript/full_transcript`
+
+An incomplete Python implementation that it copied from Go to Python in one prompt is in `incomplete_py_implementation.py`
