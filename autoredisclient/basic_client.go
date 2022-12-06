@@ -1,5 +1,6 @@
 package autoredisclient
 
+// Code commented out to avoid conflicts with the finallib
 /*
 
 type RedisClient struct {

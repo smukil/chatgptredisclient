@@ -1,4 +1,6 @@
 package autoredisclient
+
+// Code commented out to avoid conflicts with the finallib
 /*
 import (
 	"bufio"
