@@ -1,6 +1,9 @@
 # chatgptredisclient
 _A distributed, fault-tolerant Redis Client POC in Go completely written by prompting ChatGPT._
 
+Here's my blog post explaining how I got it to work:
+https://medium.com/@saileshmukil/pair-programming-with-ai-writing-a-distributed-fault-tolerant-redis-client-using-chatgpt-239dc0a90550
+
 
 * You can start a toy local cluster with 2 shards and 2 replicas each using `start_redis_cluster.py`. (Redis-server must be pre-installed)
 
